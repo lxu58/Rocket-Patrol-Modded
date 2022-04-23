@@ -28,9 +28,9 @@ class Menu2 extends Phaser.Scene {
             },
             fixedWidth: 0
         }
-        let menuConfig = {
+        let menuConfig2 = {
             fontFamily: 'Courier',
-            fontSize: '28px',
+            fontSize: '22px',
             backgroundColor: '#F3B141',
             color: '#843605',
             align: 'center',
@@ -42,12 +42,12 @@ class Menu2 extends Phaser.Scene {
         }
         // show menu text
         this.add.text(game.config.width / 2, game.config.height / 2 - borderUISize - borderPadding, 'SLIME PATROL DUO', titleConfig).setOrigin(0.5);
-        this.add.text(game.config.width / 2, game.config.height / 2, 'Player 1 Use Key A and D to move & (F) to fire', menuConfig).setOrigin(0.5);
-        this.add.text(game.config.width / 2, game.config.height / 2 + borderUISize + borderPadding, 'Use Key S to slow down the rocket speed', menuConfig).setOrigin(0.5);
-        menuConfig.backgroundColor = '#00FF00';
-        menuConfig.color = '#000';
-        this.add.text(game.config.width / 2, game.config.height / 2 + borderUISize*2 + borderPadding*2, 'Player 2 Press right left to move & up to fire', menuConfig).setOrigin(0.5);
-        this.add.text(game.config.width / 2, game.config.height / 2 + borderUISize*3 + borderPadding*3, 'Press down to slow down the rocket', menuConfig).setOrigin(0.5);
+        this.add.text(game.config.width / 2, game.config.height / 2, 'Player 1 Use Key A and D to move & (F) to fire', menuConfig2).setOrigin(0.5);
+        this.add.text(game.config.width / 2, game.config.height / 2 + borderUISize + borderPadding, 'Use Key S to slow down the rocket speed', menuConfig2).setOrigin(0.5);
+        menuConfig2.backgroundColor = '#00FF00';
+        menuConfig2.color = '#000';
+        this.add.text(game.config.width / 2, game.config.height / 2 + borderUISize*2 + borderPadding*2, 'Player 2 Press right left to move & up to fire', menuConfig2).setOrigin(0.5);
+        this.add.text(game.config.width / 2, game.config.height / 2 + borderUISize*3 + borderPadding*3, 'Press down to slow down the rocket', menuConfig2).setOrigin(0.5);
         this.add.text(game.config.width / 2, game.config.height / 2 + borderUISize*4 + borderPadding*5, 'Press R to start', titleConfig).setOrigin(0.5);
         //variable that loop bgm
         this.bgm = this.sound.add('sfx_bgm', {loop: true});
