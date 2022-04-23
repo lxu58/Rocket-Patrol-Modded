@@ -72,7 +72,7 @@ class Menu extends Phaser.Scene {
             }
             this.sound.play('sfx_select');
             this.bgm.play();
-            this.scene.start("playScene2");
+            this.scene.start("playScene");
         }
         if (Phaser.Input.Keyboard.JustDown(keyR)) {
             // hard mode
