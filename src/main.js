@@ -1,7 +1,25 @@
 
 /*
-declare and push config to phaser
+Project Name: Modded Rocket Partol 
+Made By:      Laihong Xu
+Update Date:  04/22/2022
+Working hours:  10 hours
 */
+
+/*
+point breakdown:
+(30) two player mode
+(20) Redesign game artwork : assets, animations
+(20) New spaceship type
+(10) new title scene (didn't change art, but I add another menu for duo)
+(10) Display time
+(5) control rocket after it's fired
+(5) bgm
+(5) Fire UI
+(5) speed increase
+ 
+*/
+
 
 let config = {
     type: Phaser.AUTO,
